@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins";
+  transition: all 0.5s;
+}
+a {
+  text-decoration: none;
+}
+nav ul li {
+  list-style: none;
+}
+.button {
+  border-radius: 10px;
+  padding: 16px 24px;
+}
+.bg-green {
+  background-color: #bdda9f;
+}
+body {
+  height: 100vh;
+  background-color: #fff8f5;
+}
+.color-blue {
+  color: #12b3c2;
+}
+
+/* Main */
+.color-gray {
+  color: #848484;
+}
+.banner {
+  background-image: url("/wp-content/themes/moumensilk/img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner .top-customer-ratings p {
+  margin-bottom: 0;
+}
+.banner-left {
+  width: 650px;
+}
+.banner-right {
+  width: 500px;
+  box-shadow: 0 0 5px 0 #4e5b42;
+}
+.banner-right img {
+  right: 80px;
+}
+.banner .d-flex .align-items-center {
+  gap: 60px;
+}
+.button:hover {
+  animation: pulse 1s infinite;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #ffffff;
+  }
+  100% {
+    box-shadow: 0 0 50px 10px #deffba;
+  }
+}
+.calendy2 {
+  display: none;
+}
+.gradient-bg {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(18, 179, 194, 0.1),
+    rgba(189, 218, 159, 0.1)
+  );
+  height: 820px;
+}
+.schedule-calendly {
+  border: 1px #bdda9f solid;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+main .banner ul {
+  gap: 20px;
+  padding: 0 !important;
+  margin-top: 20px !important;
+}
+ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+main ul li:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-image: url("/wp-content/themes/moumensilk/img/check.png");
+}
+
+/* Section 2 */
+.title {
+  font-weight: 600;
+}
+.sub-heading {
+  font-weight: 500;
+}
+.fast-easy {
+  margin: 0;
+}
+.book-a-call-button,
+.get-started-button,
+.get-your-qoute-button {
+  background-color: #bdda9f;
+  color: black;
+  font-weight: bolder;
+  padding: 15px 50px;
+  border-radius: 5px;
+  box-shadow: -3px 3px 10px -3px rgba(0, 0, 0, 0.36);
+}
+.section-2 {
+  background-image: linear-gradient(
+    to top,
+    rgba(18, 179, 194, 10%),
+    rgba(189, 218, 159, 10%)
+  );
+}
+.banner .arrow {
+  position: absolute;
+  top: -55px;
+  left: 170px;
+}
+.banner-left .after {
+  position: absolute;
+  top: -80px;
+  right: -50px;
+}
+.banner-right .footer {
+  transform: translate(10%, 20px);
+}
+.section-2 .arrow {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+}
+.banner-left,
+.banner .get-started-button-parent,
+.section-2 .rate1 {
+  position: relative;
+}
+.section-2 .get-your-qoute-button {
+  background-color: #12b3c2;
+  color: white;
+}
+.section-2 .container-fluid {
+  padding: 100px 0;
+}
+.section-2 .mortgage-rates {
+  gap: 20px;
+}
+.section-2 .mortgage-rates div {
+  background-color: #bdda9f;
+  border-radius: 20px;
+  padding: 20px 30px 10px;
+}
+.section-2 .mortgage-rates div span {
+  color: #12b3c2;
+}
+.section-2 .div2 .d-flex {
+  gap: 100px;
+}

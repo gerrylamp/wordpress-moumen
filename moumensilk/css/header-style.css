@@ -1,0 +1,120 @@
+header .book-a-call-button {
+  padding: 15px 30px;
+  cursor: pointer;
+}
+.hamburger .line {
+  display: block;
+  width: 40px;
+  height: 4px;
+  background-color: black;
+}
+.hamburger .line2 {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+header {
+  background-color: #c5ced5;
+}
+header a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+/* header a:hover > a:after {
+  transform: rotate(315deg);
+} */
+/* header .btn {
+  width: 60px;
+  display: inline;
+  position: absolute;
+  right: 50px;
+} */
+header .btn {
+  border: none;
+  background-color: #bdda9f;
+  color: black;
+  font-weight: 600;
+}
+header .d-flex {
+  gap: 20px;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  margin-bottom: 0;
+}
+header .container {
+  border-bottom: 1px #12b3c2 solid;
+}
+header .col-10 .col-2 {
+  /* border-left: solid 2px #12b3c2;
+  padding-left: 30px; */
+}
+#div_block-23-18 {
+  position: relative;
+  top: 10px;
+  width: 1.5px;
+  height: 60px;
+  background-color: #12b3c2;
+}
+#menu-headermenulocation li a::after {
+  content: "";
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  transform: rotate(230deg);
+  margin-left: 10px;
+  transition: all 0.5s;
+}
+header ul li a:hover {
+  color: white;
+  background: #12b3c2;
+}
+header a:hover::after {
+  position: relative;
+  top: -3px;
+  border-left: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+  transform: rotate(315deg) !important;
+}
+.navbar-toggler {
+  border: none;
+  padding: 0;
+}
+.vector {
+  top: 53px;
+  position: relative;
+  right: 15px;
+}
+
+/* Hide sub-menus by default */
+.main-navigation .sub-menu {
+  display: none;
+  position: absolute;
+  top: 65px;
+  background-color: #c5ced5; /* Background color for the dropdown */
+  padding: 10px;
+  z-index: 1; /* Ensure the dropdown is above other elements */
+}
+
+/* Show sub-menu on hover */
+.main-navigation li:hover > .sub-menu {
+  display: block;
+}
+
+/* Style for sub-menu items */
+.main-navigation .sub-menu li {
+  display: block;
+}
+
+/* Optional: Style for links inside sub-menu */
+.main-navigation .sub-menu a {
+  color: #333; /* Link color */
+  text-decoration: none;
+  padding: 5px 0; /* Optional: Padding for the links */
+  display: block;
+}

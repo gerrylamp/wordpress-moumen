@@ -1,0 +1,81 @@
+@media (max-width: 1400px) {
+  .banner .after {
+    top: -50px;
+    right: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  #div_block-70-82 {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+  .banner .after {
+    right: -40px;
+  }
+  .banner-right img {
+    right: 0;
+  }
+  .banner-right,
+  .banner-right img {
+    width: 100%;
+  }
+  .banner-left {
+    width: 450px;
+  }
+}
+@media (min-width: 992px) {
+  .offcanvas-body {
+    display: none !important;
+  }
+}
+@media ((max-width: 992px)) {
+  #div_block-4-82 {
+    flex-direction: column !important;
+  }
+  #div_block-5-82 {
+    text-align: center;
+  }
+  .d-flex,
+  #div_block-70-82 {
+    gap: 20px;
+  }
+  .banner-left {
+    width: auto;
+  }
+  .banner .after {
+    right: 0;
+  }
+  .banner .d-flex .align-items-center {
+    flex-direction: column;
+  }
+  .calendly1 {
+    /* display: none; */
+  }
+  .calendy2 {
+    display: block;
+  }
+  .gradient-bg {
+    height: auto;
+    padding: 100px 0;
+  }
+}
+@media (max-width: 767px) {
+  .section-2 .div2 .d-flex {
+    flex-direction: column;
+  }
+}
+@media (max-width: 530px) {
+  .section-2 .div1 .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-2 .div1 .d-flex div {
+    width: 200px;
+  }
+}
+@media ((max-width: 445px)) {
+  #div_block-70-82 {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}

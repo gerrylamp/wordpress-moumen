@@ -1,0 +1,37 @@
+footer #div_block-70-82 {
+  gap: 3vw;
+}
+
+footer {
+  font-size: 14px;
+  background-color: #c5ced5;
+  padding: 50px 0;
+}
+footer .btn {
+  background-color: #12b3c2;
+  color: white;
+  padding: 10px 20px;
+}
+footer hr {
+  margin: 0;
+  border-bottom: 1px solid #12b3c2;
+}
+
+footer h2 {
+  font-size: 18px;
+  color: #12b3c2;
+}
+
+footer ul {
+  padding: 0;
+  line-height: 30px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+#text_block-37-82 {
+  font-size: 12px;
+  line-height: 20px;
+}
